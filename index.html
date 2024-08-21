@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="formcss.css" />
+  </head>
+  <body>
+    <form action="">
+      <table border="2" align="center">
+        <tr>
+          <td
+            colspan="2"
+            align="center" id="heading">
+            <b>User Form</b>
+          </td>
+        </tr>
+        <tr>
+          <td>Enter Name</td>
+          <td align="center"><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Enter Password</td>
+          <td align="center"><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>Enter Address</td>
+          <td align="center">
+            <textarea name="address" id="address"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>Select Game</td>
+          <td><div style="line-height:0;">
+            <input type="checkbox" />Hockey <br />
+            <input type="checkbox" />Football <br />
+            <input type="checkbox" />Badmintion <br />
+            <input type="checkbox" />Cricket <br />
+            <input type="checkbox" />Vollyball
+        </div></td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>
+            <input type="radio" name="gender" id="male" />Male
+            <input type="radio" name="gender" id="female" />Female <br />
+          </td>
+        </tr>
+        <tr>
+          <td>Select ur age</td>
+          <td align="center">
+            <select name="age" id="">
+              <option value="">Select</option>
+              <option value="below_16">Below 16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="above_20">Above 20</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input type="file" id="myFile" name="filename" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input type="button" value="  Click Me  " />
+            <input type="Reset" value="  Reset  " />
+            <input type="submit" value="  Submit Form  " />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

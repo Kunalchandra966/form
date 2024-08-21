@@ -1,0 +1,71 @@
+tr{
+    background-color: #00ccff;
+}
+
+body{
+    font-size: 12px;
+}
+table{
+    width:350px;
+}
+
+
+input[type="text"],
+input[type="text"],
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="file"],
+select,
+textarea
+
+{
+    
+    background-color: #cdffcc;
+    border: solid 1px lightgray;
+    font-size: 12px;
+
+   
+}
+#heading{
+    background-color: #ffffa9;
+    color: #fd3f2a;
+   font-size: 20px;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="file"]
+{
+    
+    font-size: 12px;
+    
+
+}
+
+input[type="text"],
+input[type="text"],
+textarea,
+select
+{
+    width: 90%;
+
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"]
+{
+    width: 100px;
+    height: 25px;
+}
+
+#ha{
+    padding: 10px;
+}
+
+
+
+
+
